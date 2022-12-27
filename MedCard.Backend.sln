@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A5AECA8C-7FBD-42CA-AB11-12874E44C554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{60BC13E6-6DEC-4A61-99F0-58D0264AF72F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{FB6D8707-5D4A-494C-BBF7-36959BF8001D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7D8E7D24-7ABC-4004-90F7-6FC3CC5BE1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Domain", "MedCard.Domain\MedCard.Domain.csproj", "{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Aplication", "MedCard.Aplication\MedCard.Aplication.csproj", "{D8383556-C879-4213-AFF4-AE0046CA36B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Persistence", "MedCard.Persistence\MedCard.Persistence.csproj", "{68149323-968C-40A1-9737-DFBDE0C815D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCarf.WebApi", "MedCarf.WebApi\MedCarf.WebApi.csproj", "{889AA280-1921-4500-8446-480E055F89F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D} = {A5AECA8C-7FBD-42CA-AB11-12874E44C554}
+		{D8383556-C879-4213-AFF4-AE0046CA36B2} = {A5AECA8C-7FBD-42CA-AB11-12874E44C554}
+		{68149323-968C-40A1-9737-DFBDE0C815D5} = {60BC13E6-6DEC-4A61-99F0-58D0264AF72F}
+		{889AA280-1921-4500-8446-480E055F89F0} = {FB6D8707-5D4A-494C-BBF7-36959BF8001D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8383556-C879-4213-AFF4-AE0046CA36B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8383556-C879-4213-AFF4-AE0046CA36B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8383556-C879-4213-AFF4-AE0046CA36B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8383556-C879-4213-AFF4-AE0046CA36B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68149323-968C-40A1-9737-DFBDE0C815D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68149323-968C-40A1-9737-DFBDE0C815D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68149323-968C-40A1-9737-DFBDE0C815D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68149323-968C-40A1-9737-DFBDE0C815D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889AA280-1921-4500-8446-480E055F89F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889AA280-1921-4500-8446-480E055F89F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889AA280-1921-4500-8446-480E055F89F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889AA280-1921-4500-8446-480E055F89F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
