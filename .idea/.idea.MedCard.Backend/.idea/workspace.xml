@@ -5,11 +5,47 @@
     <projectFile profileName="IIS Express">MedCarf.WebApi/MedCarf.WebApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074980d9-0006-4fba-aa80-957ea99288fa" name="Changes" comment="" />
+    <list default="true" id="074980d9-0006-4fba-aa80-957ea99288fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/Common/Exceptions/NotFoundExceptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/Common/Mapping/AssemblyMappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/Common/Mapping/IMapWith.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/Interfaces/IMedCardDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/CreateMedCard/CreateMedCardCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/CreateMedCard/CreateMedCardCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/DeleteMedCard/DeleteMedCardCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/DeleteMedCard/DeleteMedCardCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/UpdateMedCard/UpdateMedCardCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/UpdateMedCard/UpdateMedCardCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/GetMedCardDetailsQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/GetMedCardDetailsQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/MedCardDetailsVm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/GetMedCardListQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/GetMedCardListQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/MedCardListVm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/MedCardLookupDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Domain/MedCard/MedCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Persistence/DbInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Persistence/EntityTypeConfigurations/MedCardConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.Persistence/MedCardDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MedCard.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedCard.Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Aplication/MedCard.Aplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Backend.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Backend.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Persistence/MedCard.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Persistence/MedCard.Persistence.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MedCard.Application/Interfaces/IMedCardDbContext.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -20,14 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MedCarf.WebApi">
     <configuration name="MedCarf.WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MedCarf.WebApi/MedCarf.WebApi.csproj" />
@@ -68,15 +104,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672172210873</updated>
-      <workItem from="1672172217623" duration="702000" />
+      <workItem from="1672172217623" duration="893000" />
+      <workItem from="1672503587520" duration="3244000" />
+      <workItem from="1672842998510" duration="2573000" />
+      <workItem from="1673510251310" duration="14000" />
+      <workItem from="1673530624879" duration="8783000" />
     </task>
+    <task id="LOCAL-00001" summary="Сделал архитектуру приложения">
+      <created>1672173035670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672173035670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Сделал архитектуру приложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал архитектуру приложения" />
   </component>
 </project>

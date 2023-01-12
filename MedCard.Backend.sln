@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7D8E7D24
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Domain", "MedCard.Domain\MedCard.Domain.csproj", "{D6D832DC-2FB1-4AD0-88BE-391EC4C9498D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Aplication", "MedCard.Aplication\MedCard.Aplication.csproj", "{D8383556-C879-4213-AFF4-AE0046CA36B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Application", "MedCard.Application\MedCard.Application.csproj", "{D8383556-C879-4213-AFF4-AE0046CA36B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Persistence", "MedCard.Persistence\MedCard.Persistence.csproj", "{68149323-968C-40A1-9737-DFBDE0C815D5}"
 EndProject

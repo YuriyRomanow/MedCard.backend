@@ -7,7 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MedCard.Aplication\MedCard.Aplication.csproj" />
+      <ProjectReference Include="..\MedCard.Application\MedCard.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.1" />
     </ItemGroup>
 
 </Project>
