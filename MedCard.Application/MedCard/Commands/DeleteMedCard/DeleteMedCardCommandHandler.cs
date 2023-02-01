@@ -1,8 +1,8 @@
-using MedCard.Aplication.Common.Exceptions;
+using MedCard.Application.Common.Exceptions;
 using MedCard.Application.Interfaces;
 using MediatR;
 
-namespace MedCard.Aplication.MedCard.Commands.DeleteMedCard;
+namespace MedCard.Application.MedCard.Commands.DeleteMedCard;
 /// <summary>
 /// Обработчик удаление карты
 /// </summary>

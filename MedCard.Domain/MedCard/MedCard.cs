@@ -1,6 +1,4 @@
-using System;
-
-namespace MedCard.Domain;
+namespace MedCard.Domain.MedCard;
 
 public class MedCard
 {

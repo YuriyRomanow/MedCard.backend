@@ -1,4 +1,4 @@
-namespace MedCard.Aplication.MedCard.Queries.GetMedCardList;
+namespace MedCard.Application.MedCard.Queries.GetMedCardList;
 /// <summary>
 /// список карт
 /// </summary>

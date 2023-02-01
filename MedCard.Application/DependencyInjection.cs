@@ -1,12 +1,14 @@
+using System.Reflection;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MedCard.Aplication;
+namespace MedCard.Application;
 
 public static class DependencyInjection
 {
     public static IServiceCollection AddApplication(
-        this IServiceCollection service)
+        this IServiceCollection services)
     {
-        return service;
+        return services.AddMediatR(Assembly.GetExecutingAssembly());
     }
 }

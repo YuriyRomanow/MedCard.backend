@@ -6,10 +6,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="074980d9-0006-4fba-aa80-957ea99288fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MedCard.Application/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCard.Persistence/DependencyInjection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.WebApi/Controllers/BaseController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.WebApi/Controllers/MedCardController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.WebApi/Models/CreateMedCardDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.WebApi/Models/UpdateMedCardDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.WebApi/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MedCard.WebApi/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MedCard.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedCard.Backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/Common/Exceptions/NotFoundExceptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/Common/Exceptions/NotFoundExceptions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/Common/Mapping/AssemblyMappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/Common/Mapping/AssemblyMappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/Interfaces/IMedCardDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/Interfaces/IMedCardDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/CreateMedCard/CreateMedCardCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/CreateMedCard/CreateMedCardCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/CreateMedCard/CreateMedCardCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/CreateMedCard/CreateMedCardCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/DeleteMedCard/DeleteMedCardCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/DeleteMedCard/DeleteMedCardCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/DeleteMedCard/DeleteMedCardCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/DeleteMedCard/DeleteMedCardCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/UpdateMedCard/UpdateMedCardCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/UpdateMedCard/UpdateMedCardCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/UpdateMedCard/UpdateMedCardCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Commands/UpdateMedCard/UpdateMedCardCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/GetMedCardDetailsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/GetMedCardDetailsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/GetMedCardDetailsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/GetMedCardDetailsQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/MedCardDetailsVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardDetails/MedCardDetailsVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/GetMedCardListQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/GetMedCardListQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/GetMedCardListQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/GetMedCardListQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/MedCardListVm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/MedCardListVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/MedCardLookupDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Application/MedCard/Queries/GetMedCardList/MedCardLookupDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Backend.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Backend.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Domain/MedCard/MedCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Domain/MedCard/MedCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Persistence/EntityTypeConfigurations/MedCardConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Persistence/EntityTypeConfigurations/MedCardConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCard.Persistence/MedCardDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.Persistence/MedCardDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCarf.WebApi/MedCarf.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.WebApi/MedCard.WebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCarf.WebApi/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCarf.WebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.WebApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCarf.WebApi/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.WebApi/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MedCarf.WebApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MedCard.WebApi/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +54,12 @@
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9c4e4632055744e38d810dc19fd740281cb880/3b/10a96ecd/ActionResult`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MedCard.Application/Interfaces/IMedCardDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MedCard.WebApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MedCard.WebApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +80,7 @@
 }</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.MedCarf.WebApi">
     <configuration name="MedCarf.WebApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MedCarf.WebApi/MedCarf.WebApi.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MedCard.WebApi/MedCard.WebApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="MedCarf.WebApi" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -61,7 +95,7 @@
       </method>
     </configuration>
     <configuration name="MedCarf.WebApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MedCarf.WebApi/MedCarf.WebApi.csproj" />
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MedCard.WebApi/MedCard.WebApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -90,7 +124,10 @@
       <workItem from="1673510251310" duration="14000" />
       <workItem from="1673530624879" duration="10017000" />
       <workItem from="1673602471205" duration="213000" />
-      <workItem from="1674146210336" duration="1240000" />
+      <workItem from="1674146210336" duration="3002000" />
+      <workItem from="1674649469548" duration="56000" />
+      <workItem from="1674734729055" duration="169000" />
+      <workItem from="1675264831467" duration="9311000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал архитектуру приложения">
       <created>1672173035670</created>
@@ -106,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673542678310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлены зависимости">
+      <created>1674148186401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674148186401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +173,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Сделал архитектуру приложения" />
     <MESSAGE value="0.0.1 - сделано добавление\удаление\изменение данных в карту" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.1 - сделано добавление\удаление\изменение данных в карту" />
+    <MESSAGE value="добавлены зависимости" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены зависимости" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Microsoft.AspNetCore.Http.DefaultHttpContext" memberName="Items" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

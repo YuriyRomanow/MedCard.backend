@@ -1,10 +1,10 @@
 using AutoMapper;
-using MedCard.Aplication.Common.Exceptions;
+using MedCard.Application.Common.Exceptions;
 using MedCard.Application.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace MedCard.Aplication.MedCard.Queries.GetMedCardDetails;
+namespace MedCard.Application.MedCard.Queries.GetMedCardDetails;
 
 public class GetMedCardDetailsQueryHandler : IRequestHandler<GetMedCardDetailsQuery, MedCardDetailsVm>
 {

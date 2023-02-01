@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace MedCard.Aplication.MedCard.Commands.UpdateMedCard;
+namespace MedCard.Application.MedCard.Commands.UpdateMedCard;
 
 /// <summary>
 ///  Команда изменения карты

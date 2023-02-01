@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace MedCard.Aplication.MedCard.Queries.GetMedCardList;
+namespace MedCard.Application.MedCard.Queries.GetMedCardList;
 
 public class GetMedCardListQuery : IRequest<MedCardListVm>
 {

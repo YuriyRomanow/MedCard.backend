@@ -4,7 +4,7 @@ using MedCard.Application.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace MedCard.Aplication.MedCard.Queries.GetMedCardList;
+namespace MedCard.Application.MedCard.Queries.GetMedCardList;
 
 public class GetMedCardListQueryHandler : IRequestHandler<GetMedCardListQuery, MedCardListVm>
 {

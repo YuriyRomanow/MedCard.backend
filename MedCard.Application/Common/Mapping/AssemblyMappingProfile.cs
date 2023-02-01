@@ -1,8 +1,7 @@
 using System.Reflection;
 using AutoMapper;
-using MedCard.Application.Common.Mapping;
 
-namespace MedCard.Aplication.Common.Mapping;
+namespace MedCard.Application.Common.Mapping;
 
 public class AssemblyMappingProfile : Profile
 {

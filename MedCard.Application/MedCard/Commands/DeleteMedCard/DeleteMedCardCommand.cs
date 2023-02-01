@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace MedCard.Aplication.MedCard.Commands.DeleteMedCard;
+namespace MedCard.Application.MedCard.Commands.DeleteMedCard;
 /// <summary>
 /// удаление карты
 /// </summary>

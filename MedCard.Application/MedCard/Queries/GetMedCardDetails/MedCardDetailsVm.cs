@@ -1,11 +1,11 @@
 using AutoMapper;
 using MedCard.Application.Common.Mapping;
-using MedCard.Domain;
-namespace MedCard.Aplication.MedCard.Queries.GetMedCardDetails;
+
+namespace MedCard.Application.MedCard.Queries.GetMedCardDetails;
 /// <summary>
 /// мапинг деталей карты
 /// </summary>
-public class MedCardDetailsVm : IMapWith<Domain.MedCard>
+public class MedCardDetailsVm : IMapWith<Domain.MedCard.MedCard>
 {
     public Guid Id { get; set; }
     public string Title { get; set; }
@@ -15,16 +15,16 @@ public class MedCardDetailsVm : IMapWith<Domain.MedCard>
 
     public void Mapping(Profile profile)
     {
-        profile.CreateMap<Domain.MedCard, MedCardDetailsVm>()
-            .ForMember(cardVM => cardVM.Title,
+        profile.CreateMap<Domain.MedCard.MedCard, MedCardDetailsVm>()
+            .ForMember(cardVm => cardVm.Title,
                 opt => opt.MapFrom(card => card.Title))
-            .ForMember(cardVM => cardVM.Details,
+            .ForMember(cardVm => cardVm.Details,
                 opt => opt.MapFrom(card => card.Details))
-            .ForMember(cardVM => cardVM.Id,
+            .ForMember(cardVm => cardVm.Id,
                 opt => opt.MapFrom(card => card.Id))
-            .ForMember(cardVM => cardVM.CreateDate,
+            .ForMember(cardVm => cardVm.CreateDate,
                 opt => opt.MapFrom(card => card.CreateDate))
-            .ForMember(cardVM => cardVM.EditDate,
+            .ForMember(cardVm => cardVm.EditDate,
                 opt => opt.MapFrom(card => card.EditDate));
     }
 }

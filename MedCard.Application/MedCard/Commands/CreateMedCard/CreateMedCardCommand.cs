@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace MedCard.Aplication.MedCard.Commands.CreateMedCard;
+namespace MedCard.Application.MedCard.Commands.CreateMedCard;
 
 /// <summary>
 ///  Команда создания карты

@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace MedCard.Aplication.MedCard.Queries.GetMedCardDetails;
+namespace MedCard.Application.MedCard.Queries.GetMedCardDetails;
 /// <summary>
 /// получение данных карты
 /// </summary>

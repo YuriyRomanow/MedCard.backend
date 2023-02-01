@@ -1,4 +1,4 @@
-namespace MedCard.Aplication.Common.Exceptions;
+namespace MedCard.Application.Common.Exceptions;
 
 /// <summary>
 /// исключения

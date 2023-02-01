@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Application", "MedC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.Persistence", "MedCard.Persistence\MedCard.Persistence.csproj", "{68149323-968C-40A1-9737-DFBDE0C815D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCarf.WebApi", "MedCarf.WebApi\MedCarf.WebApi.csproj", "{889AA280-1921-4500-8446-480E055F89F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedCard.WebApi", "MedCard.WebApi\MedCard.WebApi.csproj", "{889AA280-1921-4500-8446-480E055F89F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

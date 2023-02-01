@@ -1,8 +1,7 @@
 using MedCard.Application.Interfaces;
 using MediatR;
-using MedCard.Application.Interfaces;
 
-namespace MedCard.Aplication.MedCard.Commands.CreateMedCard;
+namespace MedCard.Application.MedCard.Commands.CreateMedCard;
 /// <summary>
 /// Обработчик создания карты
 /// </summary>
@@ -15,7 +14,7 @@ public class CreateMedCardCommandHandler : IRequestHandler<CreateMedCardCommand,
     public async Task<Guid> Handle(CreateMedCardCommand request,
         CancellationToken cancellationToken)
     {
-        var medCard = new Domain.MedCard
+        var medCard = new Domain.MedCard.MedCard
         {
             UserId = request.UserId,
             Title = request.Title,
